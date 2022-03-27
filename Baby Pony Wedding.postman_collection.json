@@ -1,0 +1,448 @@
+{
+	"info": {
+		"_postman_id": "7279e521-3c76-4cf9-a620-8e95bf954b2c",
+		"name": "Baby Pony Wedding",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Invitation API",
+			"item": [
+				{
+					"name": "/invitation/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/invitation/cfd2d8ab-6fe9-40fb-821e-293c2f52d06e",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"invitation",
+								"cfd2d8ab-6fe9-40fb-821e-293c2f52d06e"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/invitation/{id}",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/invitation/c798a45b-ea25-419a-b6ec-834f1df95d60",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"invitation",
+										"c798a45b-ea25-419a-b6ec-834f1df95d60"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "90"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"5a-Yo2qHb4iLsmSSdOZ01JoJx+9nnA\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Feb 2022 09:41:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"c798a45b-ea25-419a-b6ec-834f1df95d60\",\n    \"aliasName\": \"Fiona\",\n    \"onlineInviteFlag\": false\n}"
+						}
+					]
+				},
+				{
+					"name": "/invitation/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"aliasName\": \"Test2 - updated\",\r\n    \"onlineInviteFlag\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/invitation/48d963f1-58c8-46c3-9a56-03e075d156c4",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"invitation",
+								"48d963f1-58c8-46c3-9a56-03e075d156c4"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/invitation/{id}",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"aliasName\": \"Test2 - updated\",\r\n    \"onlineInviteFlag\": false\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/invitation/48d963f1-58c8-46c3-9a56-03e075d156c4",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"invitation",
+										"48d963f1-58c8-46c3-9a56-03e075d156c4"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Feb 2022 09:46:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Content-Length",
+									"value": "0"
+								}
+							],
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "/invitation/{id}",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/invitation/c798a45b-ea25-419a-b6ec-834f1df95d60",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"invitation",
+										"c798a45b-ea25-419a-b6ec-834f1df95d60"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "90"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"5a-Yo2qHb4iLsmSSdOZ01JoJx+9nnA\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Feb 2022 09:41:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"c798a45b-ea25-419a-b6ec-834f1df95d60\",\n    \"aliasName\": \"Fiona\",\n    \"onlineInviteFlag\": false\n}"
+						}
+					]
+				},
+				{
+					"name": "/invitation/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"aliasName\": \"Test2 - updated\",\r\n    \"onlineInviteFlag\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/invitation/48d963f1-58c8-46c3-9a56-03e075d156c4",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"invitation",
+								"48d963f1-58c8-46c3-9a56-03e075d156c4"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/invitation/{id}",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"aliasName\": \"Test2 - updated\",\r\n    \"onlineInviteFlag\": false\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/invitation/48d963f1-58c8-46c3-9a56-03e075d156c4",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"invitation",
+										"48d963f1-58c8-46c3-9a56-03e075d156c4"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Feb 2022 09:46:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Content-Length",
+									"value": "0"
+								}
+							],
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "/invitation/{id}",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/invitation/c798a45b-ea25-419a-b6ec-834f1df95d60",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"invitation",
+										"c798a45b-ea25-419a-b6ec-834f1df95d60"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "90"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"5a-Yo2qHb4iLsmSSdOZ01JoJx+9nnA\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Feb 2022 09:41:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"c798a45b-ea25-419a-b6ec-834f1df95d60\",\n    \"aliasName\": \"Fiona\",\n    \"onlineInviteFlag\": false\n}"
+						}
+					]
+				},
+				{
+					"name": "/invitation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"aliasName\": \"Test2\",\r\n    \"onlineInviteFlag\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/invitation",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"invitation"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/invitation",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"aliasName\": \"Test2\",\r\n    \"onlineInviteFlag\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/invitation",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"invitation"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "89"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"59-2jl/RonKFmcu7DtW1I8BArw6h3g\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Feb 2022 09:39:38 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"aliasName\": \"Test2\",\n    \"onlineInviteFlag\": true,\n    \"id\": \"48d963f1-58c8-46c3-9a56-03e075d156c4\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
